@@ -1,0 +1,11 @@
+--- /usr/share/jolla-calculator/pages/CalculationsListView.qml
++++ /usr/share/jolla-calculator/pages/CalculationsListView.qml
+@@ -25,7 +25,7 @@
+                 MenuItem {
+                     //% "Copy"
+                     text: qsTrId("calculator-me-copy")
+-                    onClicked: Clipboard.text = calculation.result.valueText
++                    onClicked: Clipboard.text = calculation.result.value
+                 }
+             }
+         }
